@@ -1,0 +1,14 @@
+ public static void main(String[] args) {
+        Scanner in = new Scanner (System.in);
+        System.out.println("digite a temperatura que voce deseja converter");
+        double temp;
+        temp = in.nextDouble();
+        System.out.println(result(temp));
+    
+    }
+    public static double result (double temp){
+        double result;
+        result = temp*1.8 + (32);
+        return result;
+        
+    
